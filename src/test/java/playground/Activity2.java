@@ -14,6 +14,7 @@ public class Activity2 {
             String lastName = "Doe";
             String expectedFullName = "Doe, John";
 
+            String actualFullName = formatter.getFullName(firstName, lastName);
 
             Assert.assertEquals(actualFullName, expectedFullName, "Full name format is incorrect.");
         }
